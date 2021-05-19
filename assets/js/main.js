@@ -429,6 +429,7 @@ var main = (function($) { var _ = {
 
  							// Set background stuff.
 	 							s.$slideImage
+									.css('max-width', '100%')
 		 							.css('background-image', '')
 		 							.css('background-position', ($thumbnail.data('position') || 'center'));
 
